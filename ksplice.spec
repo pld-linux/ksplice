@@ -26,7 +26,7 @@ Requires:	patch >= 2.5.4
 Requires:	perl
 Requires:	sh-utils
 Requires:	tar
-Requires:	util-linux-ng
+Requires:	util-linux
 ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
